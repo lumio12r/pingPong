@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="ping">
+            <img src="https://cdn.pixabay.com/photo/2016/02/17/18/59/ping-pong-1205609_960_720.jpg" alt="ping-pong">
+            <p id="name">Ping Pong Score Keeper</p>
+            <div id="body">
+                <p class="score"><span id="user1">0</span> to <span id="user2">0</span></p>
+                <p>Use buttons below to set score</p>
+                <p class="counter">Playing to </p>
+                <select name="toMax" id="toMax">
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="9">9</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+            <div id="buttons">
+                <button class="success">Player 1</button>
+                <button class="info">Player 2</button>
+                <button class="danger">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+
+</html>
